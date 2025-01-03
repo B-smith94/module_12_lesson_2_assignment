@@ -21,7 +21,7 @@ const AddExercise = () => {
         <Container>
             <Row className='justify-content-md-center'>
                 <Col md={6}>
-                    <h4>Add New Exercise</h4>
+                    <h3>Add New Exercise</h3>
                     <Form onSubmit={handleSubmit}>
                         <Form.Group className='mb-3'>
                             <Form.Label>Exercise Type</Form.Label>

@@ -20,6 +20,6 @@ export const exercisesSlice = createSlice({
     },
 });
 
-export const { addExercise, deleteExercise} = exercisesSlice.actions;
+export const { addExercise, deleteExercise, updateExercise} = exercisesSlice.actions;
 
 export default exercisesSlice.reducer;
